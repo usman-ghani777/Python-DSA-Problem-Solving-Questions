@@ -18,7 +18,7 @@ class singly_Linked_List:
                 current = current.next
             current.next = new_node
 # Methode for Traversal a List
-    def traversal(self):
+    def traversal(self,head):
         if self.head is None:
             print("SLL is empty")
         else:
